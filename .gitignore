@@ -4,4 +4,3 @@
 # but descend into subdirectories, gitignore and c files
 !*/
 !*.c
-!.gitignore
