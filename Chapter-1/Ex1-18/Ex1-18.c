@@ -14,7 +14,7 @@ int main() {
 	char line[MAXLENGTH];
 
 	while ((i = getline(line, MAXLENGTH)) > 0) {
-		// since all lines will be terminated by '\0' then we decrementing the index by 1
+		// since all lines will be terminated by '\0' then we decrementing the index by 1.
 		i--;
 
 		// decrementing the index whenever we fint a blank, a tab, or a newline.
