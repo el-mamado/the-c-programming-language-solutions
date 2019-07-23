@@ -1,0 +1,8 @@
+# ignore everything 
+*
+
+# but sub directories
+!/*
+
+# and c files 
+!*.c
