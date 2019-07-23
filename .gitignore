@@ -1,8 +1,7 @@
 # ignore everything 
 *
 
-# but sub directories
-!/*
-
-# and c files 
+# but descend into subdirectories, gitignore and c files
+!*/
 !*.c
+!.gitignore
